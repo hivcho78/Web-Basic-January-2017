@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Sansita',sans-serif;
+    font-size: 20px;
+    background: url("images/bg.jpg")repeat;
+}
+body>header{
+    text-align: center;
+    color: #FFFF00;
+    background: linear-gradient(to right, #FF0000,#008000,#0000FF);
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+aside{
+    background-color: rgba(245, 230, 254, 0.9);
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+aside>nav>header{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+aside>nav>ul{
+    list-style-type: none;
+}
+aside>nav>ul>li{
+background: url("images/a.png")no-repeat left ;
+    padding: 2px 5px 2px 22px;
+}
+aside>nav>ul>li:hover{
+    background-color: #FF0000;
+}
+aside>nav>ul>li:nth-child(2n):hover{
+    background-color:  #008000;;
+}
+aside>nav>ul>li>a{
+    color: black;
+}
+article{
+    background-color: rgba(245, 230, 254, 0.9);
+    width: 970px;
+    border-radius: 10px;
+    padding: 11px;
+    margin: 11px;
+}
+section{
+    margin: 22px;
+    margin-left: 220px;
+}
+article header{
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+#webColors{
+    background-color: red;
+}
+#RGBA{
+    background-color: green;
+}
+
+section>article>header:last-of-type{
+    background-color: #9425B9;
+}
+article>p:first-letter{
+    font-size: 40px;
+
+}
+article>footer>a{
+    color: #333333;
+}
+
+
