@@ -1,0 +1,34 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+nav{
+    	padding: 0;
+    	heigth:40px;
+    	line-heigth:30px;
+    	background-color: #84b3ad;
+}
+ul{
+    background-color: rgb(132, 179, 173);
+    text-align: center;
+    padding: 0px;
+    Margin: 0px;
+    list-style:none;
+
+}
+li{
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+li:hover{
+background-color: #135e3e;
+    padding: 5px 0;
+}
+li>a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}

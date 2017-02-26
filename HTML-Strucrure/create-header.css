@@ -1,0 +1,41 @@
+body{
+    font-family :"Lato", sans-serif;
+     color: #ffffff;
+
+}
+header.container{
+    margin: auto;
+    padding: 0 10px;
+    background:url(background-image.jpg)no-repeat center;
+    Background-size: cover;
+    height: 800px;
+    text-align: center;
+
+}
+h1{
+    font-size:  80px;
+    padding: 80px 0;
+    letter-spacing: 8px;
+
+}
+p{
+    font-size: 27px;
+    font-weigth: 100;
+    margin: 20px;
+
+}
+.btn{
+     color: rgb(255, 255, 255);
+     background :none;
+     border: 5px solid #ffffff;
+     border-radius: 15px;
+     padding: 15px 45px;
+     font-size: 16px;
+
+}
+.btn:hover{
+    background: #000;
+    border-color: #000;
+    Cursor:pointer;
+
+}
