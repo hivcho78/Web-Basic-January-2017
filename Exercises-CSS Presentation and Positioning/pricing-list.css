@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 1000px;
+    font-family: 'Vollkorn',sans-serif;
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #778495;
+    font-family: 'Vollkorn',sans-serif;
+    text-align: center;
+    text-transform:uppercase;
+    margin: 30px;
+}
+article{
+    width: 330px;
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+    border: 2px solid #F8F9FB;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #6B788B;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EBEFF2;
+    padding: 42px 0;
+}
+p{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 60px;
+    color: #808E99;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type: none;
+    color: #808E99;
+    padding: 20px;
+    margin-bottom:30px;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid #F1F3F2;
+}
+button{
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+   width: 210px;
+    height: 40px;
+    left: 40px;
+    border-radius: 5px;
+}
+a:hover > h2{
+    background-color: #65D3E2;
+}
+a:hover > button{
+    background-color: #65D3E2;
+}
+a:hover > p{
+    color: #65D3E2;
+}

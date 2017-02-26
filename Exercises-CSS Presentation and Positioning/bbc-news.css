@@ -1,0 +1,29 @@
+main{
+    width: 1000px;
+    border: 1px solid #a5b2b3;
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row;
+    font-family: Calibri Light , Verdana , sans-serif;
+    padding: 0 10px;
+}
+article{
+    width: 200px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+img{
+    width: 200px;
+    vertical-align: bottom;
+}
+img:hover{
+    opacity: 0.4;
+}
+h1{
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
