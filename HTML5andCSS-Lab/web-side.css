@@ -1,0 +1,42 @@
+.title{
+    background: beige;
+    text-align: center;
+}
+.aside{
+   position: absolute;
+    background: beige;
+    color: brown;
+    font-weight: 100;
+}
+body{
+    display:inline-block;
+    border: 2px solid blue;
+}
+.aside-element{
+    padding :10px 10px 0px 10px;
+    margin-bottom: 10px;
+
+}
+
+.post{
+    background: gainsboro;
+    display:inline-block;
+    width: 500px;
+    padding-right: 100px;
+    margin-left: 180px;
+    padding-left: 100px;
+    }
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 739px;
+    width: 1366px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid blue;
+    height: 768px;
+}
+.footer-text{
+    text-align: center;
+    background: #CCCCCC;
+}
