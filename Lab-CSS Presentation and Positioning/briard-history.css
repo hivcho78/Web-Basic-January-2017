@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+main{
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+h1,h2,h3,a{
+    Font-Style: Normal;
+    color: #0088dd;
+    Margin: 0;
+    text-align: center;
+    font-size: 2.1rem;
+   text-decoration: none;
+
+}
+h1{
+    Font-Family: Georgia,Times,serif;
+    font-size: 3.5rem;
+	text-shadow: 2px 4px 4px #666666;
+	Padding-bottom: 10px;
+	text-transform: capitalize;
+}
+h2{
+    font-family: Arial,sans-serif;
+    font-size: 2.3rem;
+    text-transform:capitalize;
+    letter-spacing: 0.3rem;
+
+}
+article{
+    margin-top: 20px;
+    text-align: justify;
+}
+article>p{
+    font-family: Arial,Verdana,SansSerif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #665544;
+    line-height: 30px;
+}
+.author{
+    text-align: right;
+    font-style: italic;
+}
+article:first-letter{
+    font-size: 3.8rem;
+	font-family: 'Lobster',cursive;
+	font-weight: bold;
+    text-transform: uppercase;
+    color: #665544;
+
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #292929;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+}
+article{
+    padding: 25px;
+}
+article>h2{
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 0;
+    letter-spacing: 0.1rem;
+}
+article>p{
+    font-size: 25px;
+    color:#B8B395;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.facebook,.linkedin,.twitter,.youtube{
+    height: 68px;
+    width: 58px;
+    display: flex;
+    flex-flow: row;
+    margin: 2px;
+    cursor: pointer;
+}
+.facebook{
+    background: url("images/facebook-b.png");
+}
+.twitter{
+    background: url("images/tweeter-b.png");
+}
+.youtube{
+    background: url("images/tube-b.png");
+}
+.linkedin{
+    background: url("images/linked-b.png");
+}
+.facebook:hover{
+    background: url("images/facebook-bl.png");
+}
+.twitter:hover{
+    background: url("images/tweeter-bl.png");
+}
+.youtube:hover{
+    background: url("images/tube-r.png");
+}
+.linkedin:hover{
+    background: url("images/linked-bl.png");
+}
+
